@@ -1,6 +1,9 @@
 # Division
 def div(a, b):
-    return a/b
+    if b == 0:
+        raise ZeroDivisionError("Division by zero!")
+    else:
+        return a/b
 
 
 # Addition
